@@ -16,6 +16,6 @@ public class Coin : MonoBehaviour
         coinEnabled = false;
         OnCoinTaken?.Invoke(coinValue);
         Destroy(gameObject);
-        AudioSource.PlayClipAtPoint(coinSound, Camera.main.transform.position, 0.5f);
+        AudioSource.PlayClipAtPoint(coinSound, Camera.main.transform.position);
     }
 }
