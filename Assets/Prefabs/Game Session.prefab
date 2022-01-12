@@ -134,7 +134,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.37647057, g: 1, b: 0.46336782, a: 1}
+  m_Color: {r: 0.3764706, g: 1, b: 0.4627451, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -462,3 +462,8 @@ MonoBehaviour:
   delayAfterDeath: 1
   livesText: {fileID: 599177298}
   scoreText: {fileID: 529581675}
+  healthImage: {fileID: 2104585927}
+  colors:
+  - {r: 1, g: 0.41960785, b: 0.3764706, a: 1}
+  - {r: 1, g: 0.9764706, b: 0.3764706, a: 1}
+  - {r: 0.3764706, g: 1, b: 0.4627451, a: 1}

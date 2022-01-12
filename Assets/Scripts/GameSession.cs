@@ -10,6 +10,8 @@ public class GameSession : Singleton
     [SerializeField] int playerLives = 3, score = 0;
     [SerializeField] float delayAfterDeath = 1f;
     [SerializeField] Text livesText, scoreText;
+    [SerializeField] Image healthImage;
+    [SerializeField] Color[] colors;
 
     public static event Action OnFinalDeath;
 
@@ -52,6 +54,8 @@ public class GameSession : Singleton
         {
             playerLives--;
             livesText.text = playerLives.ToString();
+            livesText.color = colors[playerLives - 1];
+            healthImage.color = colors[playerLives - 1];
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
         else
