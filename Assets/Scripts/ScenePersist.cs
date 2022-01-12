@@ -5,7 +5,19 @@ using UnityEngine.SceneManagement;
 
 public class ScenePersist : Singleton
 {
-    public void LevelFinished()
+    void Start()
+    {
+        LevelExit.OnLevelFinished += LevelFinished;
+        GameSession.OnFinalDeath += LevelFinished;
+    }
+
+    void OnDestroy()
+    {
+        LevelExit.OnLevelFinished -= LevelFinished;
+        GameSession.OnFinalDeath -= LevelFinished;
+    }
+
+    void LevelFinished()
     {
         Destroy(gameObject);
     }

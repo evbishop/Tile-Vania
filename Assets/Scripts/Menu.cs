@@ -1,10 +1,13 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class Menu : MonoBehaviour
 {
+    public static event Action OnLoadMainMenu;
+
     public void StartFirstLevel()
     {
         SceneManager.LoadScene(1);
@@ -12,7 +15,7 @@ public class Menu : MonoBehaviour
 
     public void LoadMainMenu()
     {
-        FindObjectOfType<GameSession>().GameRestared();
+        OnLoadMainMenu?.Invoke();
         SceneManager.LoadScene(0);
     }
 

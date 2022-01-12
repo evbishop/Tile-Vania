@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -10,19 +11,41 @@ public class GameSession : Singleton
     [SerializeField] float delayAfterDeath = 1f;
     [SerializeField] Text livesText, scoreText;
 
+    public static event Action OnFinalDeath;
+
     void Start()
     {
+        Menu.OnLoadMainMenu += SessionOver;
+        Coin.OnCoinTaken += IncreaseScore;
+        Player.OnPlayerDeath += HandlePlayerDeath;
         livesText.text = playerLives.ToString();
         scoreText.text = score.ToString();
     }
 
-    public void IncreaseScore(int value)
+    void OnDestroy()
+    {
+        Menu.OnLoadMainMenu -= SessionOver;
+        Coin.OnCoinTaken -= IncreaseScore;
+        Player.OnPlayerDeath -= HandlePlayerDeath;
+    }
+
+    void SessionOver()
+    {
+        Destroy(gameObject);
+    }
+
+    void IncreaseScore(int value)
     {
         score += value;
         if (scoreText) scoreText.text = score.ToString();
     }
 
-    public IEnumerator PlayerDied()
+    void HandlePlayerDeath()
+    {
+        StartCoroutine(PlayerDied());
+    }
+
+    IEnumerator PlayerDied()
     {
         yield return new WaitForSeconds(delayAfterDeath);
         if (playerLives > 1)
@@ -33,14 +56,9 @@ public class GameSession : Singleton
         }
         else
         {
-            FindObjectOfType<ScenePersist>().LevelFinished();
+            OnFinalDeath?.Invoke();
             SceneManager.LoadScene(0);
             Destroy(gameObject);
         }
-    }
-    
-    public void GameRestared()
-    {
-        Destroy(gameObject);
     }
 }

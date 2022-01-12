@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -8,12 +9,13 @@ public class Player : MonoBehaviour
     [SerializeField] float deathKickX = 10f, deathKickY = 10f;
 
     bool isAlive = true;
-
     Rigidbody2D rb;
     Animator anim;
     CapsuleCollider2D bodyCollider;
     BoxCollider2D feetCollider;
     float gravityScaleAtStart;
+
+    public static event Action OnPlayerDeath;
 
     void Start()
     {
@@ -42,9 +44,7 @@ public class Player : MonoBehaviour
             if (transform.localScale.x > 0) rb.velocity = new Vector2(-deathKickX, deathKickY);
             else rb.velocity = new Vector2(deathKickX, deathKickY);
             isAlive = false;
-            
-            GameSession gameSession = FindObjectOfType<GameSession>();
-            if (gameSession) StartCoroutine(gameSession.PlayerDied());
+            OnPlayerDeath?.Invoke();
         }
     }
 

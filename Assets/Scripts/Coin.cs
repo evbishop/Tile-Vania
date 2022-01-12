@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -6,11 +7,13 @@ public class Coin : MonoBehaviour
 {
     [SerializeField] AudioClip coinSound;
     [SerializeField] int coinValue = 100;
-    
+
+    public static event Action<int> OnCoinTaken;
+
     void OnTriggerEnter2D(Collider2D collision)
     {
         AudioSource.PlayClipAtPoint(coinSound, Camera.main.transform.position);
-        FindObjectOfType<GameSession>().IncreaseScore(coinValue);
+        OnCoinTaken?.Invoke(coinValue);
         Destroy(gameObject);
     }
 }
