@@ -13,9 +13,9 @@ public class Coin : MonoBehaviour
     void OnTriggerEnter2D(Collider2D collision)
     {
         if (!coinEnabled) return;
-        AudioSource.PlayClipAtPoint(coinSound, Camera.main.transform.position);
+        coinEnabled = false;
         OnCoinTaken?.Invoke(coinValue);
         Destroy(gameObject);
-        coinEnabled = false;
+        AudioSource.PlayClipAtPoint(coinSound, Camera.main.transform.position, 0.5f);
     }
 }
