@@ -4,17 +4,11 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class GameSession : MonoBehaviour
+public class GameSession : Singleton
 {
     [SerializeField] int playerLives = 3, score = 0;
     [SerializeField] float delayAfterDeath = 1f;
     [SerializeField] Text livesText, scoreText;
-    void Awake()
-    {
-        int numOfGameSessions = FindObjectsOfType<GameSession>().Length;
-        if (numOfGameSessions > 1) Destroy(gameObject);
-        else DontDestroyOnLoad(gameObject);
-    }
 
     void Start()
     {

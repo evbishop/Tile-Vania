@@ -6,7 +6,8 @@ public class Coin : MonoBehaviour
 {
     [SerializeField] AudioClip coinSound;
     [SerializeField] int coinValue = 100;
-    private void OnTriggerEnter2D(Collider2D collision)
+    
+    void OnTriggerEnter2D(Collider2D collision)
     {
         AudioSource.PlayClipAtPoint(coinSound, Camera.main.transform.position);
         FindObjectOfType<GameSession>().IncreaseScore(coinValue);
