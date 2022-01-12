@@ -171,6 +171,10 @@ MonoBehaviour:
   climbSpeed: 5
   deathKickX: 10
   deathKickY: 10
+  rb: {fileID: 4203563137192994876}
+  anim: {fileID: 8179516415086051397}
+  bodyCollider: {fileID: 1764055973}
+  feetCollider: {fileID: 4203563137192994879}
 --- !u!70 &1764055973
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

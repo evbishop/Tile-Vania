@@ -5,24 +5,19 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    [SerializeField] float runSpeed = 5f, jumpSpeed = 5f, climbSpeed=5f;
+    [SerializeField] float runSpeed = 5f, jumpSpeed = 28f, climbSpeed=5f;
     [SerializeField] float deathKickX = 10f, deathKickY = 10f;
-
+    [SerializeField] Rigidbody2D rb;
+    [SerializeField] Animator anim;
+    [SerializeField] CapsuleCollider2D bodyCollider;
+    [SerializeField] BoxCollider2D feetCollider;
     bool isAlive = true;
-    Rigidbody2D rb;
-    Animator anim;
-    CapsuleCollider2D bodyCollider;
-    BoxCollider2D feetCollider;
     float gravityScaleAtStart;
 
     public static event Action OnPlayerDeath;
 
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
-        anim = GetComponent<Animator>();
-        bodyCollider = GetComponent<CapsuleCollider2D>();
-        feetCollider = GetComponent<BoxCollider2D>();
         gravityScaleAtStart = rb.gravityScale;
     }
 
