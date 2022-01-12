@@ -1,0 +1,679 @@
+fileFormatVersion: 2
+guid: 4032a7b1b5fa5eb45bf4a752690632a0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4440332819853650543
+    second: _PA-Coins_0
+  - first:
+      213: 7200685257978923725
+    second: _PA-Coins_1
+  - first:
+      213: -5303178027702270257
+    second: _PA-Coins_2
+  - first:
+      213: 6754676492337651505
+    second: _PA-Coins_3
+  - first:
+      213: -433350838122219601
+    second: _PA-Coins_4
+  - first:
+      213: -4583613185391112871
+    second: _PA-Coins_5
+  - first:
+      213: -325556200103631670
+    second: _PA-Coins_6
+  - first:
+      213: -7489913702679800607
+    second: _PA-Coins_7
+  - first:
+      213: -8673026477248659276
+    second: _PA-Coins_8
+  - first:
+      213: 4707591766758427771
+    second: _PA-Coins_9
+  - first:
+      213: 5264257454561671730
+    second: _PA-Coins_10
+  - first:
+      213: 1575123441706486196
+    second: _PA-Coins_11
+  - first:
+      213: -4403836261334863235
+    second: _PA-Coins_12
+  - first:
+      213: 6082820922050750044
+    second: _PA-Coins_13
+  - first:
+      213: -8660119228520147424
+    second: _PA-Coins_14
+  - first:
+      213: -7965823571387269891
+    second: _PA-Coins_15
+  - first:
+      213: -4089400039997561431
+    second: _PA-Coins_16
+  - first:
+      213: -8917845815615945849
+    second: _PA-Coins_17
+  - first:
+      213: -5952504712829889755
+    second: _PA-Coins_18
+  - first:
+      213: -5239996910858828231
+    second: _PA-Coins_19
+  - first:
+      213: -5368944312576270430
+    second: _PA-Coins_20
+  - first:
+      213: -1103520759602531574
+    second: _PA-Coins_21
+  - first:
+      213: 2915019984779054292
+    second: _PA-Coins_22
+  - first:
+      213: -8137366504866123830
+    second: _PA-Coins_23
+  - first:
+      213: -7127833538758083536
+    second: _PA-Coins_24
+  - first:
+      213: -8440672653170793480
+    second: _PA-Coins_25
+  - first:
+      213: 9093410974615128560
+    second: _PA-Coins_26
+  - first:
+      213: 8801267375295929853
+    second: _PA-Coins_27
+  - first:
+      213: 418980444879294365
+    second: _PA-Coins_28
+  - first:
+      213: -7062457230626621770
+    second: _PA-Coins_29
+  - first:
+      213: 604618724492281557
+    second: _PA-Coins_30
+  - first:
+      213: 3226577227172782654
+    second: _PA-Coins_31
+  - first:
+      213: 9051920591812556025
+    second: _PA-Coins_32
+  - first:
+      213: -6601644034126494440
+    second: _PA-Coins_33
+  - first:
+      213: 9030650626726129760
+    second: _PA-Coins_34
+  - first:
+      213: 8877009983922418681
+    second: _PA-Coins_35
+  - first:
+      213: 122103992929450091
+    second: _PA-Coins_36
+  - first:
+      213: -8070611018961841513
+    second: _PA-Coins_37
+  - first:
+      213: 7632547857152443859
+    second: _PA-Coins_38
+  - first:
+      213: 3200943765275386314
+    second: _PA-Coins_39
+  - first:
+      213: 2100025510660147150
+    second: _PA-Coins_40
+  - first:
+      213: 120175300932411499
+    second: _PA-Coins_41
+  - first:
+      213: -6030448837345920862
+    second: _PA-Coins_42
+  - first:
+      213: -1195348392074027448
+    second: _PA-Coins_43
+  - first:
+      213: -472597079340985750
+    second: _PA-Coins_44
+  - first:
+      213: -5862210815047244601
+    second: _PA-Coins_45
+  - first:
+      213: -5669027552706472957
+    second: _PA-Coins_46
+  - first:
+      213: -2424046331595205619
+    second: _PA-Coins_47
+  - first:
+      213: -6855978659869187346
+    second: _PA-Coins_48
+  - first:
+      213: 9099563125520319802
+    second: _PA-Coins_49
+  - first:
+      213: 2015910357696514178
+    second: _PA-Coins_50
+  - first:
+      213: -5968881864625254287
+    second: _PA-Coins_51
+  - first:
+      213: -6905613065935182769
+    second: _PA-Coins_52
+  - first:
+      213: -1409440463587368785
+    second: _PA-Coins_53
+  - first:
+      213: -247389842913081204
+    second: _PA-Coins_54
+  - first:
+      213: -5037967313398943797
+    second: _PA-Coins_55
+  - first:
+      213: 3211913532751776571
+    second: _PA-Coins_56
+  - first:
+      213: 8524709675657414333
+    second: _PA-Coins_57
+  - first:
+      213: -3086657062485246335
+    second: _PA-Coins_58
+  - first:
+      213: 1371342029555795812
+    second: _PA-Coins_59
+  - first:
+      213: 5214629594096025235
+    second: _PA-Coins_60
+  - first:
+      213: 8540823249568304754
+    second: _PA-Coins_61
+  - first:
+      213: -490896596287631012
+    second: _PA-Coins_62
+  - first:
+      213: 8237302492617120914
+    second: _PA-Coins_63
+  - first:
+      213: -8650188549191750019
+    second: _PA-Coins_64
+  - first:
+      213: -972922986675201063
+    second: _PA-Coins_65
+  - first:
+      213: 6520989227893430577
+    second: _PA-Coins_66
+  - first:
+      213: 824977495962071826
+    second: _PA-Coins_67
+  - first:
+      213: 673229020650211960
+    second: _PA-Coins_68
+  - first:
+      213: -5496632224356951608
+    second: _PA-Coins_69
+  - first:
+      213: 8851439814589492818
+    second: _PA-Coins_70
+  - first:
+      213: 4864706016017467923
+    second: _PA-Coins_71
+  - first:
+      213: 1481329452160836051
+    second: _PA-Coins_72
+  - first:
+      213: -8269293472412010277
+    second: _PA-Coins_73
+  - first:
+      213: -8120405113141856882
+    second: _PA-Coins_74
+  - first:
+      213: 4469983222613224266
+    second: _PA-Coins_75
+  - first:
+      213: 8074250783074644216
+    second: _PA-Coins_76
+  - first:
+      213: 9159348561087178077
+    second: _PA-Coins_77
+  - first:
+      213: 3599879340662093716
+    second: _PA-Coins_78
+  - first:
+      213: -4997320145348222530
+    second: _PA-Coins_79
+  - first:
+      213: 5093692502103141420
+    second: _PA-Coins_80
+  - first:
+      213: 2454391492115146293
+    second: _PA-Coins_81
+  - first:
+      213: -4803595013415553676
+    second: _PA-Coins_82
+  - first:
+      213: -563612020143080429
+    second: _PA-Coins_83
+  - first:
+      213: 3957135760633377967
+    second: _PA-Coins_84
+  - first:
+      213: -6565614544203365791
+    second: _PA-Coins_85
+  - first:
+      213: -1867101436672134791
+    second: _PA-Coins_86
+  - first:
+      213: 4147338011883224607
+    second: _PA-Coins_87
+  - first:
+      213: 8732035632051897440
+    second: _PA-Coins_88
+  - first:
+      213: 3543845046070573064
+    second: _PA-Coins_89
+  - first:
+      213: 724632116451455440
+    second: _PA-Coins_90
+  - first:
+      213: -7551314020188292708
+    second: _PA-Coins_91
+  - first:
+      213: -3057793054064431742
+    second: _PA-Coins_92
+  - first:
+      213: 4312298680636364664
+    second: _PA-Coins_93
+  - first:
+      213: 6220368099778325956
+    second: _PA-Coins_94
+  - first:
+      213: 1997363779824631150
+    second: _PA-Coins_95
+  - first:
+      213: 2535659383358601060
+    second: _PA-Coins_96
+  - first:
+      213: 8683823290665782048
+    second: _PA-Coins_97
+  - first:
+      213: 5941227957917372072
+    second: _PA-Coins_98
+  - first:
+      213: 2560069435287840232
+    second: _PA-Coins_99
+  - first:
+      213: 7990308348475103830
+    second: _PA-Coins_100
+  - first:
+      213: 3381828217699523449
+    second: _PA-Coins_101
+  - first:
+      213: 1877450703704642830
+    second: _PA-Coins_102
+  - first:
+      213: 2697583493606914318
+    second: _PA-Coins_103
+  - first:
+      213: 4165000806705008968
+    second: _PA-Coins_104
+  - first:
+      213: 7974154636356259222
+    second: _PA-Coins_105
+  - first:
+      213: 5500711555474267030
+    second: _PA-Coins_106
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: _PA-Coins_0
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 43
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1955d1483d4c062c0800000000000000
+      internalID: -4440332819853650543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _PA-Coins_1
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 42
+        width: 89
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcac93d5719fde360800000000000000
+      internalID: 7200685257978923725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _PA-Coins_2
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 42
+        width: 33
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc646266ea35766b0800000000000000
+      internalID: -5303178027702270257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _PA-Coins_3
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 42
+        width: 89
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13f97726b7e6dbd50800000000000000
+      internalID: 6754676492337651505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _PA-Coins_4
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 42
+        width: 99
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa77b9e65bd6cf9f0800000000000000
+      internalID: -433350838122219601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _PA-Coins_5
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 42
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95d47f8c71cb360c0800000000000000
+      internalID: -4583613185391112871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _PA-Coins_6
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 42
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac4a5626c546b7bf0800000000000000
+      internalID: -325556200103631670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _PA-Coins_7
+      rect:
+        serializedVersion: 2
+        x: 1508
+        y: 42
+        width: 100
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e49071bb2b7e0890800000000000000
+      internalID: -7489913702679800607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _PA-Coins_8
+      rect:
+        serializedVersion: 2
+        x: 1718
+        y: 42
+        width: 100
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b04900ee5833a780800000000000000
+      internalID: -8673026477248659276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _PA-Coins_9
+      rect:
+        serializedVersion: 2
+        x: 1928
+        y: 42
+        width: 100
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7c803d15c9b45140800000000000000
+      internalID: 4707591766758427771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _PA-Coins_10
+      rect:
+        serializedVersion: 2
+        x: 2138
+        y: 42
+        width: 99
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23ab95183466e0940800000000000000
+      internalID: 5264257454561671730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _PA-Coins_11
+      rect:
+        serializedVersion: 2
+        x: 2348
+        y: 42
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b94e44cc66fbd510800000000000000
+      internalID: 1575123441706486196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
